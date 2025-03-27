@@ -30,5 +30,3 @@ Contributions to AgenticChunker are welcome! Please make sure to follow the code
 
 ## License
 This project is licensed under the GPL-3.0 .
-```
-
