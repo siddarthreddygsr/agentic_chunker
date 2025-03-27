@@ -1,0 +1,1 @@
+Dr. Elena Marlow published a paper on neural dust applications in 2023. She demonstrated how micron-scale sensors could monitor brain activity. These devices were successfully tested in murine trials last month. "They represent the future of non-invasive diagnostics," she told reporters.

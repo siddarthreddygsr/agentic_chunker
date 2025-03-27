@@ -1,0 +1,4 @@
+openai==1.68.2
+setuptools
+wheel
+twine
