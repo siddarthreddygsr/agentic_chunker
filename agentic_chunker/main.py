@@ -1,6 +1,7 @@
 from openai import OpenAI
 import copy
 import json
+from tqdm import tqdm
 
 from . import prompts
 
@@ -43,7 +44,7 @@ class AgenticChunker:
         original_chunks = text.split(seperator)
         current_chunk = None
         previous_chunk = None
-        for chunk in original_chunks:
+        for chunk in tqdm(original_chunks, desc="Processing Chunks", unit="chunk"):
             current_chunk = chunk
             if not previous_chunk:
                 previous_chunk = current_chunk
@@ -59,7 +60,7 @@ class AgenticChunker:
         modified_chunks = copy.deepcopy(chunks)
         current_chunk = None
         previous_chunk = None
-        for i, chunk in enumerate(chunks):
+        for i, chunk in tqdm(enumerate(chunks), desc="Processing Chunks", unit="chunk", total=len(chunks)):
             current_chunk = chunk
             modified_chunk = modified_chunks[i]
             if not previous_chunk:

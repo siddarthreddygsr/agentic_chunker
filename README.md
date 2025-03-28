@@ -53,4 +53,4 @@ new_chunks = chunker.rechunk_langchain_chunks(chunks)
 Contributions to AgenticChunker are welcome! Please make sure to follow the code style and conventions used in the project. If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
 
 ## License
-This project is licensed under the GPL-3.0 .
+This project is licensed under the GPL-3.0 License.

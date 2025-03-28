@@ -12,7 +12,8 @@ setup(
     version=__version__,
     packages=find_packages(),
     install_requires=[
-        'openai>=1.24.1'
+        'openai>=1.24.1',
+        'tqdm>=4.11.1',
     ],
     long_description=long_description,
     long_description_content_type='text/markdown',
