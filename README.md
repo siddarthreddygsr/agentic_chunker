@@ -10,7 +10,6 @@ pip install agentic-chunker
 
 ```python
 from agentic_chunker import AgenticChunker
-from langchain.text_splitter import CharacterTextSplitter
 import markdown
 import os
 
@@ -25,6 +24,7 @@ chunks = chunker.agentic_chunking(text, '.')
 
 ```python
 from agentic_chunker import AgenticChunker
+from langchain.text_splitter import CharacterTextSplitter
 import markdown
 import os
 

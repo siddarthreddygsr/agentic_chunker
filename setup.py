@@ -15,6 +15,7 @@ setup(
         'openai>=1.24.1',
         'tqdm>=4.11.1',
     ],
+    description="A tool for improving the quality of chunks.",
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Gurram Siddarth Reddy',
